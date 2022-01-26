@@ -9,19 +9,6 @@
 <link href="/template/css/style.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
-<!--	<div id="menu-wrapper">-->
-<!--		<div id="menu">-->
-<!--			<ul>-->
-<!--				<li class="current_page_item"><a href="#">Homepage</a></li>-->
-<!--				<li><a href="#">Blog</a></li>-->
-<!--				<li><a href="#">Photos</a></li>-->
-<!--				<li><a href="#">About</a></li>-->
-<!--				<li><a href="#">Links</a></li>-->
-<!--				<li><a href="#">Contact</a></li>-->
-<!--			</ul>-->
-<!--		</div>-->
-<!--		<!-- end #menu -->
-<!--	</div>-->
 
 <div id="wrapper">
     <div id="header-wrapper">
@@ -48,16 +35,16 @@
 				<?php endforeach;?>
 					<div style="clear: both;">&nbsp;</div>
 				</div>
-				<!-- end #content -->
+
 				<div style="clear: both;">&nbsp;</div>
 			</div>
 		</div>
 	</div>
-	<!-- end #page -->
 </div>
+
 <div id="footer">
 	<p>My test mini MVC (c) 2022</p>
 </div>
-<!-- end #footer -->
+
 </body>
 </html>
