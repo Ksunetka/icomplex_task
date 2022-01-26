@@ -41,6 +41,7 @@
 
 					<p><a href='/news/' class="permalink">Вернуться на Главную страницу</a></p>
 					<div style="clear: both;">&nbsp;</div>
+				</div>
 
 				<div style="clear: both;">&nbsp;</div>
 			</div>
