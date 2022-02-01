@@ -11,17 +11,22 @@
 
 
 
-    function userGender($user)
+    function userGender($name)
     {
-        $count = iconv_strlen($user);
+        $name = mb_strtolower($name, 'UTF-8');
+        $name = implode(array_unique(preg_split('//u', $name, null, PREG_SPLIT_NO_EMPTY)));
+        $count = iconv_strlen($name);
         if (($count % 2) == 0) {
             echo "Girl!";
+            print_r($name);
         } else {
             echo "Boy!";
+            print_r($name);
         }
     }
 
 
-    return userGender("Полина");
+    return userGender('Коснтантин');
+
 
 ?>
