@@ -26,7 +26,7 @@
     }
 
 
-    return userGender('Коснтантин');
+    return userGender('Константин');
 
 
 ?>
