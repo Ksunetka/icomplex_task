@@ -35,8 +35,7 @@ Class NewsController
             $result = News::saveComments($name, $text, $news_id);
 
             if ($result=true) {
-                require_once(ROOT . '/views/news/thank.php');
-                return true;
+                header("Location: /views/news/thank.php");
             }
 
         }

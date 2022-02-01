@@ -61,6 +61,8 @@ class News
         // Текст запроса к БД
         $sql = 'INSERT INTO comments (name, text, news_id) VALUES (:name, :text, :news_id)';
 
+//        $products = json_encode($products);
+
         $result = $db->prepare($sql);
         $result->bindParam(':name', $name, PDO::PARAM_STR);
         $result->bindParam(':text', $text, PDO::PARAM_STR);
